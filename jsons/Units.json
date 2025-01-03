@@ -92,6 +92,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
