@@ -135,6 +135,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
+		"promotions": "March",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -147,6 +148,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
+		"promotions": "March",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -196,6 +198,7 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
+		"promotions": "Supply",
 		"attackSound": "nonmetalhit"
 	},
 	{
