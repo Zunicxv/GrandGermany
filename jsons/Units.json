@@ -2,7 +2,7 @@
 	{
 		"name": "Legion",
 		"unitType": "Sword",
-		"uniqueTo": "Rome",
+		"uniqueTo": "Germany",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 17,
@@ -65,7 +65,7 @@
 	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
+		"uniqueTo": "Germany",
 		"replaces": "Trireme",
 		"movement": 4,
 		"strength": 13,
