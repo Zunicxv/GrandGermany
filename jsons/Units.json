@@ -153,6 +153,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Sea Beggar",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Germany",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Great Archaeologist",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
