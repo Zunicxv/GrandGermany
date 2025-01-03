@@ -167,6 +167,22 @@
 		//German unique unit, stronger than Tank
 	},
 	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "Germany",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
 		"uniqueTo": "Germany",
