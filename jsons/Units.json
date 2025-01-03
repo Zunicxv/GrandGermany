@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Atlatlist",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "Germany",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Legion",
 		"unitType": "Sword",
 		"uniqueTo": "Germany",
