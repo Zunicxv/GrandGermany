@@ -188,6 +188,23 @@
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
 	},
+		{
+		"name": "Zero",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Germany",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["[Zero] ability"],
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
