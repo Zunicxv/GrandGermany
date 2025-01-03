@@ -47,6 +47,23 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Germany",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+	},
+	{
 		"name": "Tercio",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
@@ -76,23 +93,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "crossbow"
 	},
-	{
-		"name": "Berserker",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Germany",
-		"movement": 3,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Metal Casting",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Metallurgy",
-		"requiredResource": "Iron",
-		"promotions": ["Amphibious"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
-	},
+
 	{
 		"name": "Hoplite",
 		"unitType": "Sword",
