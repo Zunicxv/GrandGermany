@@ -119,6 +119,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
+		"promotions": "March",
 		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus"],
 		"hurryCostModifier": 20,
 		"attackSound": "crossbow"
