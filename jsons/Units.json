@@ -50,7 +50,7 @@
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
-		"uniqueTo": "Rome",
+		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 10,
@@ -61,6 +61,23 @@
 		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "crossbow"
+	},
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Germany",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
 	{
 		"name": "Hoplite",
